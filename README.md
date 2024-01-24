@@ -2,17 +2,12 @@
 This guide outlines the setup for Kafka with Debezium and Oracle LogMiner using Docker.
 
 ## Table of Contents
-- [Kafka-Debezium with Oracle LogMiner Setup](#kafka-debezium-with-oracle-logminer-setup)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Scripts](#scripts)
-    - [1. `create_logminer_user.sh`](#1-create_logminer_usersh)
-    - [2. `setup_image_docker.sh`](#2-setup_image_dockersh)
-    - [3. `run.sh`](#3-runsh)
-  - [Connectors](#connectors)
-  - [Other Information](#other-information)
-  - [Contact](#contact)
+1. [Prerequisites](#prerequisites)
+2. [Setup](#setup)
+3. [Scripts](#scripts)
+4. [Connectors](#connectors)
+5. [Other Information](#other-information)
+6. [Contact](#contact)
 ---
 
 ## Prerequisites
