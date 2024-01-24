@@ -1,0 +1,19 @@
+{
+  "name": "oracle-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.oracle.OracleConnector",
+    "tasks.max": "1",
+    "database.hostname": "oracle",
+    "database.port": "1521",
+    "database.user": "c##d4rky",
+    "database.password": "d4rky007",
+    "database.dbname": "TEST",
+    "database.pdb.name": "ORCLPDB1",
+    "database.history.kafka.topic": "schema-changes.test",
+    "database.history.kafka.bootstrap.servers": "kafka:9092",
+    "database.connection.adapter": "logminer",
+    "schema.history.internal.kafka.topic": "schema-changes.test",
+    "schema.history.internal.kafka.bootstrap.servers": "kafka:9092",
+    "topic.prefix": "poc_d"
+  }
+}
